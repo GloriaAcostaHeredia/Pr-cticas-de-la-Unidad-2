@@ -1,6 +1,7 @@
 # Pr-cticas-de-la-Unidad-2
 Administración de Bases de Datos: Prácticas Unidad 2 Entregable por Acosta Heredia
-Administración de Bases de Datos: Prácticas Unidad 2
+
+
 ### Problema 01
 Crear un procedimiento almacenado SAVE_LOCATION, cuyos parámetros de entrada van a ser todas las columnas de la tabla LOCATIONS, pero el parámetro referente al id (p_location_id) va a ser un parámetro IN OUT. La lógica es que cuando en p_location_id se le envíe un valor 0, se inserte un nuevo registro en la tabla LOCATIONS y en este parámetro se establezca el valor del id del registro insertado según la secuencia LOCATIONS_SEQ. Si el valor que se envía en p_location_id es diferente de 0, lo que se va a hacer es actualizar (UPDATE) el registro de la tabla LOCATIONS con el valor del identificador especificado.
 ### Problema 02
